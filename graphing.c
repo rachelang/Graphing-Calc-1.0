@@ -9,7 +9,7 @@ void graphing(double(*f)(double x), double xL, double xR, double yD, double yU);
 double dne(void);
 #define DNE 1.4920694713590719
 
-//Please open window to full-screen to see itended graph.
+//Please open window to full-screen to see intended graph.
 int main(void){
   graphing(f0, -10, 10, -1, 1);
   graphing(f1, -8, 8, -1.5, 1.5);
